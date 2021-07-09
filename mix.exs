@@ -13,7 +13,8 @@ defmodule Airbrakex.Mixfile do
       docs: [
         main: Airbrakex,
         source_url: "https://github.com/fazibear/airbrakex"
-      ]
+      ],
+      xref: [exclude: [Logger, Jason]]
     ]
   end
 
